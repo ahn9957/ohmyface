@@ -136,6 +136,13 @@ body {
 	color: #35465d;
 }
 
+.sububtitle{
+	font-family: NanumSquareR;
+	line-height: 1.53;
+	text-align: center;
+	color: #35465d;
+}
+
 @media screen and (max-width: 600px) {
   html {
     font-size: 10px;
