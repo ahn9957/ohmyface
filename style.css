@@ -27,6 +27,7 @@ body {
 .file-upload-content {
   display: none;
   text-align: center;
+	font-family: 'Jua', sans-serif;
 }
 
 #loading {
@@ -324,6 +325,7 @@ body {
 }
 .result-message {
     font-size: 2rem;
+	font-family: 'Jua', sans-serif;
 }
 
 label {
