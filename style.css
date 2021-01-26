@@ -29,6 +29,10 @@ body {
   text-align: center;
 }
 
+#loading {
+  display: none;
+}
+
 .file-upload-input {
   position: absolute;
   margin: 0;
@@ -120,24 +124,25 @@ body {
 
 .section {
 	margin-top: 100px;
+	text-align: center;
 }
 
 .title{
-	font-family: NanumSquareR;
+	font-family: 'Jua', sans-serif;
 	line-height: 1.67;
 	text-align: center;
 	color: #35465d;
 }
 
 .subtitle{
-	font-family: NanumSquareR;
+	font-family: 'Jua', sans-serif;
 	line-height: 1.53;
 	text-align: center;
 	color: #35465d;
 }
 
 .sububtitle{
-	font-family: NanumSquareR;
+	font-family: 'Jua', sans-serif;
 	line-height: 1.53;
 	text-align: center;
 	color: #35465d;
@@ -153,7 +158,7 @@ body {
 }
 
 .youtube-link {
-	font-family: NanumSquareR;
+	font-family: 'Jua', sans-serif;
 	font-size: 1.5rem;
 	line-height: 1.71;
 	text-align: center;
@@ -162,7 +167,7 @@ body {
 }
 
 .youtube-link:hover {
-	font-family: NanumSquareR;
+	font-family: 'Jua', sans-serif;
 	font-size: 1.5rem;
 	line-height: 1.71;
 	text-align: center;
@@ -170,6 +175,169 @@ body {
 	text-decoration: underline;
 }
 
-.container {
-	
+.upload-text {
+    width: 58%;
+    font-size: 1.5rem;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+    margin: 0 auto;
+	font-family: 'Jua', sans-serif;
+}
+
+.bar-container {
+  height: 2.7rem;
+}
+.효정-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(117, 204, 84, 0.2);
+}
+.효정-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(117, 204, 84, 1);
+}
+.미미-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(117, 204, 84, 0.2);
+}
+.미미-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(117, 204, 84, 1);
+}
+.유아-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(27, 175, 234, 0.2);
+}
+.유아-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(27, 175, 234, 1);
+}
+.승희-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(251, 176, 59, 0.2);
+}
+.승희-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(251, 176, 59, 1);
+}
+.지호-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(195, 140, 102, 0.2);
+}
+.지호-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(195, 140, 102, 1);
+}
+.비니-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(49, 132, 155, 0.2);
+}
+.비니-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(49, 132, 155, 1);
+}
+.아린-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(235, 166, 190, 0.2);
+}
+.아린-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(235, 166, 190, 1);
+}
+.percent-text {
+  font-size: 1rem;
+  color: #000000;
+	font-family: 'Jua', sans-serif;
+}
+.ohmyface-label {
+    width: 20%;
+    text-align: left;
+    height: 2rem;
+	font-family: 'Jua', sans-serif;
+}
+#label-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.result-message {
+    font-size: 2rem;
+}
+
+label {
+  cursor: pointer;
+  display: inline-block;
+  width: 90px;
+  height: 41px;
+  box-shadow: 0 0 0 8px #e5e9ea inset;
+  border-radius: 30px;
+  position: relative;
+}
+
+.helper {
+	font-family: 'Jua', sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.71;
 }
